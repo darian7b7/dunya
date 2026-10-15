@@ -1,0 +1,13 @@
+# Current UN member states (membership without an end date, state not dissolved) plus the two
+# observer states Palestine (Q219060) and the Holy See (Q237), with their capitals in German and English.
+# Denmark (Q35) is added explicitly: its Wikidata membership statement is incomplete, but it has been a member since 1945.
+SELECT ?c ?iso ?capDe ?capEn WHERE {
+  { ?c p:P463 ?m . ?m ps:P463 wd:Q1065 .
+    FILTER NOT EXISTS { ?m pq:P582 ?end }
+    FILTER NOT EXISTS { ?c wdt:P576 ?dissolved } }
+  UNION { VALUES ?c { wd:Q219060 wd:Q237 wd:Q35 } }
+  ?c wdt:P297 ?iso .
+  OPTIONAL { ?c wdt:P36 ?cap .
+    OPTIONAL { ?cap rdfs:label ?capDe FILTER(LANG(?capDe) = "de") }
+    OPTIONAL { ?cap rdfs:label ?capEn FILTER(LANG(?capEn) = "en") } }
+}

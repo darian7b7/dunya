@@ -1,0 +1,3826 @@
+{
+  "head" : {
+    "vars" : [ "c", "iso", "capDe", "capEn" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sri Jayawardenepura Kotte"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Sri Jayewardenepura Kotte"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q854"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LK"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tashkent"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Taschkent"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q265"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "UZ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Palikir"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Palikir"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q702"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "FM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Washington, D.C."
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Washington, D.C."
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q30"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "US"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Berlin"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Berlin"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q183"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "DE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Warsaw"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Warschau"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q36"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "PL"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Singapore"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Singapur"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q334"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SG"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bern"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bern"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q39"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CH"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Skopje"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Skopje"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MK"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ljubljana"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Ljubljana"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SI"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "London"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "London"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q145"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GB"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cairo"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kairo"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q79"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "EG"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paris"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Paris"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q142"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "FR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sofia"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Sofia"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q219"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BG"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lisbon"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Lissabon"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q45"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "PT"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vilnius"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Vilnius"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q37"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LT"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oslo"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q20"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "NO"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rome"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Rom"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q38"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "IT"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Moscow"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Moskau"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q159"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "RU"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Monaco"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Monaco"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q235"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MC"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amsterdam"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Amsterdam"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29999"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "NL"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vatican City"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Vatikanstadt"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q237"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "VA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beijing"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Peking"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q148"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CN"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "New Delhi"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Neu-Delhi"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q668"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "IN"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tbilisi"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Tiflis"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q230"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brussels"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Brüssel"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q31"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Prague"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Prag"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q213"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CZ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Banjul"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Banjul"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1005"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jerusalem"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Jerusalem"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q801"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "IL"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Montevideo"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Montevideo"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q77"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "UY"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Conakry"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Conakry"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1006"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GN"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Islamabad"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Islamabad"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q843"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "PK"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dhaka"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Dhaka"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q902"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BD"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Monrovia"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Monrovia"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1014"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Zagreb"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Zagreb"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q224"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "HR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bissau"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bissau"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1007"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GW"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Praia"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Praia"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1011"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CV"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Accra"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Accra"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q117"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GH"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Damascus"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Damaskus"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q858"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SY"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Manila"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Manila"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q928"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "PH"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mexico City"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Mexiko-Stadt"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q96"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MX"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tokyo"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Tokio"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "JP"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Buenos Aires"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Buenos Aires"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q414"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "AR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "La Paz"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "La Paz"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q750"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BO"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abu Dhabi"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Abu Dhabi"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q878"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "AE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yamoussoukro"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Yamoussoukro"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1008"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CI"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ouagadougou"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Ouagadougou"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q965"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BF"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Astana"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Astana"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q232"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "KZ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Athens"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Athen"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q41"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Abuja"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1033"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "NG"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lomé"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Lomé"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q945"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TG"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baghdad"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bagdad"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q796"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "IQ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Freetown"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Freetown"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1044"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SL"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amman"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Amman"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q810"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "JO"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yaoundé"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Yaoundé"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1009"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Caracas"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Caracas"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q717"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "VE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Porto-Novo"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Porto-Novo"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q962"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BJ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guatemala City"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Guatemala-Stadt"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q774"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GT"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beirut"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Beirut"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q822"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LB"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Havana"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Havanna"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q241"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CU"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vienna"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Wien"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q40"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "AT"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Libreville"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Libreville"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1000"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stockholm"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Stockholm"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q34"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Muscat"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Maskat"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q842"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "OM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bangui"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bangui"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q929"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CF"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Copenhagen"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kopenhagen"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q35"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "DK"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Helsinki"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Helsinki"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q33"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "FI"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dublin"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Dublin"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q27"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "IE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kinshasa"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kinshasa"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q974"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CD"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Reykjavík"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Reykjavík"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q189"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "IS"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kigali"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kigali"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1037"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "RW"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tallinn"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Tallinn"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q191"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "EE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Riga"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Riga"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q211"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LV"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brazzaville"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Brazzaville"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q971"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CG"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bratislava"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bratislava"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q214"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SK"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doha"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Doha"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q846"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "QA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dodoma"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Dodoma"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q924"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TZ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nicosia"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Nikosia"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q229"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CY"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lilongwe"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Lilongwe"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1020"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MW"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nairobi"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Nairobi"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "KE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lusaka"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Lusaka"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q953"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ZM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "San Marino"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "San Marino"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q238"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vaduz"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Vaduz"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q347"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LI"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Budapest"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Budapest"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q28"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "HU"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luxembourg"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Luxemburg"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q32"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LU"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Phnom Penh"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Phnom Penh"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q424"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "KH"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hanoi"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Hanoi"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q881"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "VN"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bangkok"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bangkok"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q869"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TH"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Andorra la Vella"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Andorra la Vella"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q228"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "AD"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maputo"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Maputo"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1029"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MZ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Manama"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Manama"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q398"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BH"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kampala"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kampala"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1036"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "UG"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kuala Lumpur"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kuala Lumpur"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q833"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MY"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luanda"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Luanda"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q916"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "AO"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kyiv"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kiew"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q212"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "UA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mbabane"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Mbabane"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1050"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SZ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ottawa"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Ottawa"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q16"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Maseru"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Maseru"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1013"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LS"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Juba"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Juba"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q958"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SS"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Antananarivo"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Antananarivo"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1019"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MG"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Moroni"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Moroni"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q970"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "KM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pretoria"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Pretoria"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q258"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ZA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Port Louis"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Port Louis"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1027"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MU"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Khartoum"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Chartum"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1049"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SD"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Minsk"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Minsk"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q184"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BY"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mogadishu"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Mogadischu"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1045"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SO"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harare"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Harare"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q954"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ZW"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gaborone"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Gaborone"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q963"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BW"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yerevan"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Jerewan"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q399"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "AM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Victoria"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Victoria"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1042"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SC"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sanaa"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Sanaa"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q805"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "YE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cape Town"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kapstadt"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q258"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ZA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Madrid"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Madrid"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q29"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ES"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Windhoek"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Windhoek"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1030"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "NA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "São Tomé"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "São Tomé"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1039"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ST"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kabul"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kabul"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q889"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "AF"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bogotá"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bogotá"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q739"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CO"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nassau"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Nassau"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q778"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BS"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Quito"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Quito"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q736"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "EC"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Baku"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Baku"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q227"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "AZ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Brasília"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Brasília"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q155"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seoul"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Seoul"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q884"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "KR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lima"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Lima"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q419"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "PE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sucre"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Sucre"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q750"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BO"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thimphu"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Thimphu"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q917"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BT"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bandar Seri Begawan"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bandar Seri Begawan"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q921"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BN"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asunción"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Asunción"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q733"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "PY"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Santiago"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Santiago de Chile"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q298"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CL"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dili"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Dili"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q574"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TL"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Vientiane"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Vientiane"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q819"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kathmandu"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kathmandu"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q837"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "NP"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paramaribo"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Paramaribo"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q730"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Malé"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Malé"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q826"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MV"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Canberra"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Canberra"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q408"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "AU"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Majuro"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Majuro"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q709"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MH"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tirana"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Tirana"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q222"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "AL"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bucharest"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bukarest"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "RO"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tegucigalpa"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Tegucigalpa"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q783"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "HN"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bishkek"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bischkek"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q813"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "KG"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Panama City"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Panama-Stadt"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q804"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "PA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sarajevo"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Sarajevo"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q225"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chișinău"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kischinau"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q217"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MD"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dushanbe"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Duschanbe"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q863"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TJ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "San Salvador"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "San Salvador"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q792"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SV"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belmopan"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Belmopan"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q242"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BZ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pyongyang"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Pjöngjang"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q423"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "KP"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rabat"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Rabat"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1028"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Georgetown"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Georgetown"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q734"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GY"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Addis Ababa"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Addis Abeba"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q115"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ET"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yaren District"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Yaren"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q697"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "NR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Podgorica"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Podgorica"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q236"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ME"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "San José"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "San José"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q800"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "CR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Djibouti"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Dschibuti"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q977"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "DJ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Funafuti"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Funafuti"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q672"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TV"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ulaanbaatar"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Ulaanbaatar"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q711"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MN"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Santo Domingo"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Santo Domingo"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q786"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "DO"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bridgetown"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bridgetown"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q244"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BB"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bamako"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bamako"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q912"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ML"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wellington"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Wellington"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q664"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "NZ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Algiers"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Algier"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q262"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "DZ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asmara"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Asmara"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q986"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ER"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Apia"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Apia"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q683"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "WS"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Port-au-Prince"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Port-au-Prince"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q790"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "HT"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bloemfontein"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Bloemfontein"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q258"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ZA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Niamey"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Niamey"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1032"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "NE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jakarta"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Jakarta"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q252"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "ID"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tunis"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Tunis"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q948"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TN"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ankara"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Ankara"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q43"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Valletta"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Valletta"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q233"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MT"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naypyidaw"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Naypyidaw"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q836"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ashgabat"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Aşgabat"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q874"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tripoli"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Tripolis"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1016"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LY"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Roseau"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Roseau"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q784"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "DM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "N'Djamena"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "N’Djamena"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q657"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TD"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Port of Spain"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Port of Spain"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q754"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TT"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Honiara"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Honiara"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q685"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SB"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Belgrade"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Belgrad"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q403"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "RS"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Riyadh"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Riad"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q851"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SA"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nouakchott"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Nouakchott"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1025"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "MR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kuwait City"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kuweit-Stadt"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q817"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "KW"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Basseterre"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Basseterre"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q763"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "KN"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Port Moresby"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Port Moresby"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q691"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "PG"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingston"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kingston"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q766"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "JM"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Port Vila"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Port Vila"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q686"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "VU"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gitega"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Gitega"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q967"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "BI"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ramallah"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Ramallah"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q219060"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "PS"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "East Jerusalem"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Ostjerusalem"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q219060"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "PS"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ciudad de la Paz"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Ciudad de la Paz"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q983"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GQ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tehran"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Teheran"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q794"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "IR"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Managua"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Managua"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q811"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "NI"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Colombo"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Colombo"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q854"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LK"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dakar"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Dakar"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1041"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SN"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kingstown"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Kingstown"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q757"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "VC"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ngerulmud"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Ngerulmud"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q695"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "PW"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "St. George's"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "St. George’s"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q769"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "GD"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Aden"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Aden"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q805"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "YE"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "South Tarawa"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "South Tarawa"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q710"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "KI"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Suva"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Suva"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q712"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "FJ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lobamba"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Lobamba"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1050"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "SZ"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Castries"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Castries"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q760"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "LC"
+      }
+    }, {
+      "capEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nukuʻalofa"
+      },
+      "capDe" : {
+        "xml:lang" : "de",
+        "type" : "literal",
+        "value" : "Nukuʻalofa"
+      },
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q678"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "TO"
+      }
+    }, {
+      "c" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q781"
+      },
+      "iso" : {
+        "type" : "literal",
+        "value" : "AG"
+      }
+    } ]
+  }
+}
