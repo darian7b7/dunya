@@ -1,21 +1,25 @@
 // The interactive 3D globe: swipe to turn (with momentum), pinch to zoom, tap a country.
 import 'dart:math';
+import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 
 import '../core/globe.dart';
 import '../core/world.dart';
+import 'globe_mesh.dart';
 import 'theme.dart';
 
 /// Lets a screen turn the globe to a place.
 class GlobeController {
   _GlobeViewState? _state;
 
-  void flyTo(double lon, double lat, {double zoom = 1.6}) => _state?._flyTo(lon, lat, zoom);
+  void flyTo(double lon, double lat, {double zoom = 1.6}) =>
+      _state?._flyTo(lon, lat, zoom);
 
   /// Turns to a country and zooms in according to its size.
-  void flyToCountry(Country c) => flyTo(c.label.$1, c.label.$2, zoom: zoomFor(c));
+  void flyToCountry(Country c) =>
+      flyTo(c.label.$1, c.label.$2, zoom: zoomFor(c));
 }
 
 /// Bigger countries need less zoom; tiny ones need a lot.
@@ -68,15 +72,22 @@ class _GlobeViewState extends State<GlobeView> with TickerProviderStateMixin {
   late Camera _view = widget.initial;
   double _zoom = 1;
   double _startZoom = 1;
-  Offset _velocity = Offset.zero; // pixels per second, for momentum after a swipe
+  Offset _velocity =
+      Offset.zero; // pixels per second, for momentum after a swipe
   bool _touching = false;
   double _radius = 1;
 
   // Fly-to animation.
   Camera? _flyFrom, _flyTarget;
   double _flyFromZoom = 1, _flyToZoom = 1;
-  late final AnimationController _fly = AnimationController(vsync: this, duration: const Duration(milliseconds: 900));
-  late final AnimationController _pulse = AnimationController(vsync: this, duration: const Duration(milliseconds: 1400));
+  late final AnimationController _fly = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 900),
+  );
+  late final AnimationController _pulse = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 1400),
+  );
   late final Ticker _ticker = createTicker(_tick);
   Duration _last = Duration.zero;
 
@@ -94,7 +105,10 @@ class _GlobeViewState extends State<GlobeView> with TickerProviderStateMixin {
 
   /// Only animate while something moves, so a still globe costs no battery.
   void _keepMoving() {
-    final needed = _velocity.distance > 15 || (widget.autoRotate && !(MediaQuery.maybeDisableAnimationsOf(context) ?? false));
+    final needed =
+        _velocity.distance > 15 ||
+        (widget.autoRotate &&
+            !(MediaQuery.maybeDisableAnimationsOf(context) ?? false));
     if (needed && !_ticker.isActive) {
       _last = Duration.zero;
       _ticker.start();
@@ -151,7 +165,10 @@ class _GlobeViewState extends State<GlobeView> with TickerProviderStateMixin {
     // Zoom out a little mid-flight, like a camera travelling across the globe.
     final arc = sin(t * pi) * 0.25 * min(_flyFromZoom, _flyToZoom);
     setState(() {
-      _view = Camera(wrapLon(from.lon + lonDelta(from.lon, to.lon) * t), from.lat + (to.lat - from.lat) * t);
+      _view = Camera(
+        wrapLon(from.lon + lonDelta(from.lon, to.lon) * t),
+        from.lat + (to.lat - from.lat) * t,
+      );
       _zoom = _flyFromZoom + (_flyToZoom - _flyFromZoom) * t - arc;
     });
   }
@@ -184,47 +201,60 @@ class _GlobeViewState extends State<GlobeView> with TickerProviderStateMixin {
   }
 
   Widget _globe(double lift) {
-    return LayoutBuilder(builder: (context, box) {
-      final size = box.biggest;
-      _radius = min(size.width, size.height) * 0.44 * _zoom;
-      final center = size.center(Offset(0, -lift));
-      final painter = CustomPaint(
-        size: size,
-        painter: GlobePainter(
-          world: widget.world,
-          view: _view,
-          radius: _radius,
-          center: center,
-          colorOf: widget.colorOf,
-          selected: widget.selected,
-          pulse: _pulse,
-        ),
-      );
-      if (!widget.interactive) return painter;
-      return GestureDetector(
-        behavior: HitTestBehavior.opaque,
-        onScaleStart: (_) {
-          _touching = true;
-          _velocity = Offset.zero;
-          _startZoom = _zoom;
-          _fly.stop();
-        },
-        onScaleUpdate: (d) => setState(() {
-          _view = _view.dragged(d.focalPointDelta.dx, d.focalPointDelta.dy, _radius);
-          if (d.pointerCount > 1) _zoom = (_startZoom * d.scale).clamp(1.0, 12.0);
-        }),
-        onScaleEnd: (d) {
-          _touching = false;
-          if (d.pointerCount == 0) _velocity = d.velocity.pixelsPerSecond;
-          _keepMoving();
-        },
-        onTapUp: (d) {
-          final p = d.localPosition - center;
-          widget.onTap?.call(countryAt(widget.world, p.dx, p.dy, _view, _radius));
-        },
-        child: painter,
-      );
-    });
+    return LayoutBuilder(
+      builder: (context, box) {
+        final size = box.biggest;
+        _radius = min(size.width, size.height) * 0.44 * _zoom;
+        final center = size.center(Offset(0, -lift));
+        // Own layer: the twinkling sky and the panels don't make the globe redraw, and vice versa.
+        final painter = RepaintBoundary(
+          child: CustomPaint(
+            size: size,
+            painter: GlobePainter(
+              world: widget.world,
+              view: _view,
+              radius: _radius,
+              center: center,
+              colorOf: widget.colorOf,
+              selected: widget.selected,
+              pulse: _pulse,
+            ),
+          ),
+        );
+        if (!widget.interactive) return painter;
+        return GestureDetector(
+          behavior: HitTestBehavior.opaque,
+          onScaleStart: (_) {
+            _touching = true;
+            _velocity = Offset.zero;
+            _startZoom = _zoom;
+            _fly.stop();
+          },
+          onScaleUpdate: (d) => setState(() {
+            _view = _view.dragged(
+              d.focalPointDelta.dx,
+              d.focalPointDelta.dy,
+              _radius,
+            );
+            if (d.pointerCount > 1) {
+              _zoom = (_startZoom * d.scale).clamp(1.0, 12.0);
+            }
+          }),
+          onScaleEnd: (d) {
+            _touching = false;
+            if (d.pointerCount == 0) _velocity = d.velocity.pixelsPerSecond;
+            _keepMoving();
+          },
+          onTapUp: (d) {
+            final p = d.localPosition - center;
+            widget.onTap?.call(
+              countryAt(widget.world, p.dx, p.dy, _view, _radius),
+            );
+          },
+          child: painter,
+        );
+      },
+    );
   }
 }
 
@@ -259,7 +289,10 @@ class GlobePainter extends CustomPainter {
       r * 1.1,
       Paint()
         ..shader = RadialGradient(
-          colors: [const Color(0xFF5B8CFF).withValues(alpha: 0.35), Colors.transparent],
+          colors: [
+            const Color(0xFF5B8CFF).withValues(alpha: 0.35),
+            Colors.transparent,
+          ],
           stops: const [0.88, 1.0],
         ).createShader(Rect.fromCircle(center: c, radius: r * 1.1)),
     );
@@ -277,36 +310,38 @@ class GlobePainter extends CustomPainter {
 
     canvas.save();
     canvas.clipPath(Path()..addOval(sphere));
-    _graticule(canvas, c);
+    final mesh = GlobeMesh.of(world);
+    final proj = Projector(view, r, c.dx, c.dy);
+    _graticule(canvas, mesh, proj);
 
+    // One path per colour instead of one per country: far fewer drawing calls.
+    final land = Path();
+    for (final shape in mesh.land) {
+      if (proj.mayBeVisible(shape)) _addShape(land, shape, proj);
+    }
+    canvas.drawPath(land, Paint()..color = otherLand);
+
+    final byColor = <Color, Path>{};
+    Path? selectedPath;
+    for (var i = 0; i < world.countries.length; i++) {
+      final shape = mesh.countries[i];
+      if (!proj.mayBeVisible(shape)) continue;
+      final country = world.countries[i];
+      _addShape(byColor.putIfAbsent(colorOf(country), Path.new), shape, proj);
+      if (country.iso == selected) {
+        _addShape(selectedPath = Path(), shape, proj);
+      }
+    }
     final border = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = 0.7
       ..color = nightDeep.withValues(alpha: 0.55);
-    final fill = Paint();
-
-    fill.color = otherLand;
-    for (final ring in world.land) {
-      final path = _ring(ring, c);
-      if (path != null) canvas.drawPath(path, fill);
-    }
-
-    Path? selectedPath;
-    for (final country in world.countries) {
-      final path = Path();
-      var any = false;
-      for (final ring in country.shapes) {
-        final p = _ring(ring, c);
-        if (p != null) {
-          path.addPath(p, Offset.zero);
-          any = true;
-        }
-      }
-      if (!any) continue;
-      fill.color = colorOf(country);
-      canvas.drawPath(path, fill);
-      canvas.drawPath(path, border);
-      if (country.iso == selected) selectedPath = path;
+    for (final e in byColor.entries) {
+      canvas.drawPath(e.value, Paint()..color = e.key);
+      canvas.drawPath(
+        e.value,
+        border,
+      ); // borders: the outline of the same paths, no second copy
     }
 
     // Small countries also get a dot, so they can be seen and tapped.
@@ -315,14 +350,16 @@ class GlobePainter extends CustomPainter {
       ..style = PaintingStyle.stroke
       ..strokeWidth = 1.2
       ..color = Colors.white.withValues(alpha: 0.85);
-    for (final country in world.countries.where((x) => x.tiny)) {
-      final p = project(country.label.$1, country.label.$2, view, r);
+    for (var i = 0; i < world.countries.length; i++) {
+      final country = world.countries[i];
+      if (!country.tiny) continue;
+      final (x, y, z) = mesh.labels[i];
+      final p = proj.point(x, y, z);
       if (!p.visible) continue;
-      final at = c + Offset(p.x, p.y);
       final size = country.iso == selected ? 6.0 : 3.6;
       dot.color = colorOf(country);
-      canvas.drawCircle(at, size, dot);
-      canvas.drawCircle(at, size, ring);
+      canvas.drawCircle(Offset(p.x, p.y), size, dot);
+      canvas.drawCircle(Offset(p.x, p.y), size, ring);
     }
 
     if (selectedPath != null) {
@@ -353,64 +390,79 @@ class GlobePainter extends CustomPainter {
         ..shader = RadialGradient(
           center: const Alignment(-0.4, -0.45),
           radius: 1.15,
-          colors: [Colors.white.withValues(alpha: 0.12), Colors.transparent, Colors.black.withValues(alpha: 0.45)],
+          colors: [
+            Colors.white.withValues(alpha: 0.12),
+            Colors.transparent,
+            Colors.black.withValues(alpha: 0.45),
+          ],
           stops: const [0.0, 0.5, 1.0],
         ).createShader(sphere),
     );
   }
 
-  /// A country outline as a screen path. Points on the far side are pushed onto the visible edge,
+  /// Adds a shape's outlines to [path]. Points on the far side are pushed onto the visible edge,
   /// so shapes crossing the horizon end cleanly at the rim.
-  Path? _ring(List<(double, double)> ring, Offset c) {
-    final path = Path();
-    var visible = false;
-    for (var i = 0; i < ring.length; i++) {
-      final (lon, lat) = ring[i];
-      final p = project(lon, lat, view, radius);
-      var x = p.x, y = p.y;
-      if (p.visible) {
-        visible = true;
-      } else {
-        final d = sqrt(x * x + y * y);
-        if (d > 0) {
-          x = x / d * radius;
-          y = y / d * radius;
+  void _addShape(Path path, MeshShape shape, Projector proj) {
+    for (final ring in proj.rings(shape)) {
+      final n = ring.length ~/ 3;
+      if (_buffer.length < n * 2) _buffer = Float32List(n * 2);
+      var visible = false;
+      for (var i = 0; i < n; i++) {
+        final p = proj.point(ring[i * 3], ring[i * 3 + 1], ring[i * 3 + 2]);
+        var x = p.x, y = p.y;
+        if (p.visible) {
+          visible = true;
+        } else {
+          final dx = x - proj.cx, dy = y - proj.cy;
+          final d = sqrt(dx * dx + dy * dy);
+          if (d > 0) {
+            x = proj.cx + dx / d * proj.radius;
+            y = proj.cy + dy / d * proj.radius;
+          }
         }
+        _buffer[i * 2] = x;
+        _buffer[i * 2 + 1] = y;
       }
-      i == 0 ? path.moveTo(c.dx + x, c.dy + y) : path.lineTo(c.dx + x, c.dy + y);
+      if (!visible) continue; // entirely behind the globe
+      path.moveTo(_buffer[0], _buffer[1]);
+      for (var i = 1; i < n; i++) {
+        path.lineTo(_buffer[i * 2], _buffer[i * 2 + 1]);
+      }
+      path.close();
     }
-    return visible ? (path..close()) : null;
   }
 
-  void _graticule(Canvas canvas, Offset c) {
-    final paint = Paint()
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = 0.6
-      ..color = Colors.white.withValues(alpha: 0.07);
-    void line(Iterable<(double, double)> points) {
-      final path = Path();
+  static Float32List _buffer = Float32List(2048);
+
+  void _graticule(Canvas canvas, GlobeMesh mesh, Projector proj) {
+    final path = Path();
+    for (final line in mesh.graticule) {
       var drawing = false;
-      for (final (lon, lat) in points) {
-        final p = project(lon, lat, view, radius);
+      for (var i = 0; i < line.length; i += 3) {
+        final p = proj.point(line[i], line[i + 1], line[i + 2]);
         if (!p.visible) {
           drawing = false;
           continue;
         }
-        drawing ? path.lineTo(c.dx + p.x, c.dy + p.y) : path.moveTo(c.dx + p.x, c.dy + p.y);
+        drawing ? path.lineTo(p.x, p.y) : path.moveTo(p.x, p.y);
         drawing = true;
       }
-      canvas.drawPath(path, paint);
     }
-
-    for (var lon = -180.0; lon < 180; lon += 30) {
-      line([for (var lat = -80.0; lat <= 80; lat += 4) (lon, lat)]);
-    }
-    for (var lat = -60.0; lat <= 60; lat += 30) {
-      line([for (var lon = -180.0; lon <= 180; lon += 4) (lon, lat)]);
-    }
+    canvas.drawPath(
+      path,
+      Paint()
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 0.6
+        ..color = Colors.white.withValues(alpha: 0.07),
+    );
   }
 
   @override
   bool shouldRepaint(GlobePainter old) =>
-      old.view.lon != view.lon || old.view.lat != view.lat || old.radius != radius || old.center != center || old.selected != selected || old.colorOf != colorOf;
+      old.view.lon != view.lon ||
+      old.view.lat != view.lat ||
+      old.radius != radius ||
+      old.center != center ||
+      old.selected != selected ||
+      old.colorOf != colorOf;
 }
