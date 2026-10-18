@@ -61,3 +61,7 @@ To refresh population or capitals, download `data/population.json` (World Bank A
 - **Daily challenge**
 - **Capitals as points on the globe**, from Wikidata coordinates
 - **Explore by continent**
+
+## License
+
+The code is under the [MIT License](LICENSE). The data keeps its own licence (see the sources above).
